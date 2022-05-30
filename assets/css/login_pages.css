@@ -1,0 +1,171 @@
+.main_area {}
+
+.main_logo_page {}
+
+.login_left_area {
+    background: #F5F9FE;
+    box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.06);
+    height: 100%;
+    padding: 150px 0px;
+}
+
+.login_left_img {
+    text-align: center;
+}
+
+.login_left_img img {
+    width: 100%;
+}
+
+.login_right_area {
+    padding-left: 110px;
+}
+
+.login_logo {
+    display: inline-block;
+    padding: 100px 0px;
+}
+
+.login_logo img {}
+
+.login_wiht_facebook {}
+
+.login_wiht_facebook h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    color: #111928;
+    padding-bottom: 28px;
+}
+
+.login_wiht_facebook p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #292D32;
+    padding-bottom: 24px;
+}
+
+.continue_facebook_btn {
+    padding-bottom: 20px;
+}
+
+.continue_facebook_btn a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4C6DE3;
+    border-radius: 30px;
+    padding: 15px 24px;
+    width: 55%;
+}
+
+.continue_facebook_btn a img {}
+
+.continue_facebook_btn a p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.login_with_email {}
+
+.login_with_email a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #3F83F8;
+}
+
+.copyright {
+    position: fixed;
+    bottom: 2%;
+}
+
+.copyright ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.copyright ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B7280;
+    padding: 2px 5px;
+}
+
+.copyright ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #00778B;
+}
+
+/*Start Responsive*/
+@media only screen and (max-width: 1316px) and (min-width: 992px) {
+    .continue_facebook_btn a {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:991px) {
+    .login_right_area {
+        padding-left: 40px;
+    }
+
+    .continue_facebook_btn a {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:767px) {
+    .login_left_area {
+        background: #F5F9FE;
+        box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.06);
+        height: 100%;
+        padding: 30px 0px;
+    }
+
+    .login_logo {
+        padding: 40px 0px;
+    }
+
+    .continue_facebook_btn a {
+        width: 70%;
+    }
+
+    .copyright {
+        position: absolute;
+        bottom: -50%;
+    }
+}
+
+@media all and (max-width:577px) {
+    .continue_facebook_btn a {
+        width: 100%;
+    }
+
+    .copyright {
+        position: absolute;
+        bottom: -30%;
+    }
+}
+
+@media all and (max-width:481px) {}
+
+@media all and (max-width:350px) {
+    .login_right_area {
+        padding-left: 10px;
+    }
+}
+
+/*End Responsive*/

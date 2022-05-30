@@ -1,0 +1,476 @@
+/*============
+font-family: 'Inter', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F9F9F9;
+}
+
+/*=========================================*/
+/*============Start 1st Wapper=============*/
+/*=========================================*/
+
+.wapper {
+    background: url(../images/hero-bg.png)no-repeat scroll 0 0 / 100% 100%;
+    padding-top: 60px;
+}
+
+/*Header Section*/
+.main_header_area {}
+
+.logo_area {}
+
+.logo_area img {
+    width: 250px;
+    height: 87px;
+}
+
+.menu_area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu_icon {
+    margin-right: 56px;
+}
+
+.menu_icon img {
+    cursor: pointer;
+}
+
+.my_account {}
+
+.my_account a {
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1F2A37;
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 30px;
+    padding: 5px 21px 5px 5px;
+}
+
+.my_account a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.responsive_my {
+    display: none;
+}
+
+/*End Header*/
+/*hero section*/
+.hero_area {
+    padding: 146px 0px 230px;
+}
+
+.hero_left {}
+
+.hero_left h1 {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    padding-bottom: 30px;
+
+
+    color: #1F2A37;
+}
+
+.hero_left h1 span {
+
+    font-style: normal;
+    font-weight: 800;
+
+
+
+
+    color: #00778B;
+}
+
+.hero_left p {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 60px;
+    padding-bottom: 20px;
+    color: #6B7280;
+}
+
+.start_btn {}
+
+.start_btn button {
+    border: none;
+    background: none;
+}
+
+.start_btn button a {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+
+    color: #FFFFFF;
+    background: #00778B;
+    border-radius: 30px;
+    padding: 17px 26px;
+}
+
+.hero_right {}
+
+.hero_right img {
+    width: 100%;
+    height: auto;
+}
+
+/*End Hero*/
+/*=========================================*/
+/*==============End 1st Wapper=============*/
+/*=========================================*/
+/*
+--------------------------------------------
+*/
+/*=========================================*/
+/*===========Start Service Section==========*/
+/*=========================================*/
+.main_service_area {
+    padding: 67px 0px;
+}
+
+.service_heading {
+    text-align: center;
+}
+
+.service_heading img {}
+
+.service_heading h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+    color: #1F2A37;
+}
+
+.service_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service_item {
+    text-align: center;
+    background: url(../images/service-item.svg)no-repeat scroll 0 0 / 100% 100%;
+    padding: 70px 50px 110px;
+    width: 297px;
+    margin: 15px;
+
+}
+
+.service_item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.service_item h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #363E4D;
+}
+
+/*=========================================*/
+/*===========End Service Section===========*/
+/*=========================================*/
+
+/*=========================================*/
+/*=========Start InterFace Section=========*/
+/*=========================================*/
+.inter_face_section {
+    padding: 15px 0px 140px;
+    position: relative;
+}
+
+.inter_face_img {}
+
+.inter_face_img img {
+    width: 100%;
+}
+
+.effect {
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+}
+
+.effect img {
+    width: 100%;
+}
+
+
+
+
+
+/*=========================================*/
+/*===========End InterFace Section==========*/
+/*=========================================*/
+
+
+/*=========================================*/
+/*============Start FAQ Section============*/
+/*=========================================*/
+
+.faq_main_area {
+    padding: 100px 0px;
+}
+
+.faq_heading {
+    text-align: center;
+}
+
+.faq_heading h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+    color: #1F2A37;
+}
+
+.faq_heading h1 span {
+    color: #00778B;
+    font-weight: 700;
+
+}
+
+.faq_heading p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-align: center;
+
+    color: #434344;
+}
+
+.faq_heading p a {
+    display: inline-block;
+    font-weight: 700;
+
+
+    color: #00778B;
+}
+
+.faq {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1F2A37;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: transparent;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #00778B;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/up-arrow.svg");
+    transform: rotate(0deg);
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("../images/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-body {}
+
+.accordion-body p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6B7280;
+
+}
+
+.accordion-item {
+
+    margin: 14px 0px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-top: 2px solid rgba(0, 0, 0, .125);
+}
+
+.accordion-button {
+    border: 2.5px solid rgba(0, 0, 0, .125);
+}
+
+/*=========================================*/
+/*==============End FAQ Section============*/
+/*=========================================*/
+
+
+/*=========================================*/
+/*============Start Footer Section===========*/
+/*=========================================*/
+.start_footer_area {
+    background: url(../images/footer-bg.png) no-repeat scroll 0 0 / 100% 100%;
+    padding: 0px 0px 70px;
+}
+
+.footer_logo {
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 40px;
+}
+
+.footer_logo a {}
+
+.footer_logo a img {}
+
+.extension_heading {}
+
+.extension_heading h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.extension {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.chrome {
+    border-right: 1px dashed #fff;
+
+}
+
+.common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 50px
+}
+
+.common img {
+    margin-bottom: 30px;
+}
+
+.common a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #fff;
+    display: inline-block;
+    padding: 18px 46px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.common a:hover {
+    background: #FFFFFF;
+    border-radius: 30px;
+    color: #1F2A37;
+
+}
+
+
+
+/*=========================================*/
+/*============End Footer Section===========*/
+/*=========================================*/

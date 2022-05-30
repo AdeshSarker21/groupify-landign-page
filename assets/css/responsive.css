@@ -1,0 +1,305 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .hero_left h1 {
+        font-size: 49px;
+        line-height: 68px;
+    }
+
+    .hero_left p {
+        font-size: 30px;
+        line-height: 47px;
+    }
+
+    .service_item img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .service_item h2 {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .hero_right {
+        padding-top: 45px;
+    }
+
+    .service_heading {
+        text-align: center;
+        padding-bottom: 31px;
+    }
+
+    .service_details {
+        flex-wrap: wrap;
+    }
+
+    .service_item {
+        width: 50%;
+        margin: 0;
+        flex-basis: 47%;
+    }
+
+    .inter_face_section {
+        padding: 15px 0px 0px;
+    }
+
+    .effect {
+        bottom: -3%;
+    }
+
+    .main_service_area {
+        padding: 67px 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .logo_area img {
+        width: 150px;
+        height: 40px;
+    }
+
+    .responsive_my {
+        display: block;
+    }
+
+    .pc_my_account {
+        display: none;
+    }
+
+    .my_account a {
+        display: inline-block;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1F2A37;
+        background: transparent;
+        border: none;
+        border-radius: none;
+        padding: 0px;
+    }
+
+    .hero_left h1 {
+        font-size: 40px;
+    }
+
+    .hero_left p {
+        font-size: 27px;
+        line-height: 45px;
+    }
+
+    .hero_area {
+        padding: 50px 0px 70px;
+    }
+
+    .faq_heading h1 {
+        font-size: 35px;
+    }
+
+    .faq {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .accordion-button {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .accordion-body p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .accordion-button:not(.collapsed) {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .chrome {
+        border-right: none;
+    }
+
+    .extension {
+        flex-direction: column;
+    }
+
+    .common {
+        padding: 20px 0px;
+    }
+
+    .start_footer_area {
+        padding: 0px 0px 15px;
+        background-size: cover;
+    }
+
+    .service_item img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .service_item h2 {
+        font-size: 20px;
+    }
+    
+}
+
+@media all and (max-width:577px) {
+    .hero_left p {
+        font-size: 25px;
+        line-height: 45px;
+    }
+
+    .hero_left h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .service_heading h1 {
+        font-size: 35px;
+        line-height: 56px;
+    }
+
+    .faq_heading h1 {
+        font-size: 31px;
+    }
+
+    .faq_main_area {
+        padding: 25px 0px;
+        padding-bottom: 70px;
+    }
+
+    .service_item img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .service_item h2 {
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .hero_left h1 {
+        font-size: 33px;
+        line-height: 50px;
+        padding-bottom: 10px;
+    }
+
+    .hero_left p {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .service_item {
+        padding: 70px 50px 61px;
+    }
+
+    .faq_heading h1 {
+        font-size: 27px;
+    }
+
+    .faq_heading p {
+        font-size: 20px;
+    }
+
+    .service_item img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .service_item h2 {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 28px;
+    }
+
+    .service_item {
+        padding: 70px 10px 61px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .service_heading h1 {
+        font-size: 31px;
+        line-height: 42px;
+    }
+
+    .faq_heading h1 {
+        font-size: 25px;
+    }
+
+    .extension_heading h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width:375px) {
+    .hero_left h1 {
+        font-size: 29px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+
+    .hero_left p {
+        font-size: 18px;
+        line-height: 31px;
+    }
+
+    .start_btn button a {
+        font-size: 17px;
+    }
+
+    .faq_heading h1 {
+        font-size: 23px;
+    }
+
+    .faq_heading p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 375px) {
+    .hero_left h1 {
+        font-size: 33px;
+        line-height: 50px;
+        padding-bottom: 10px;
+    }
+
+    .hero_left p {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .faq_heading h1 {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width:350px) {
+    .hero_left h1 {
+        font-size: 27px;
+    }
+
+    .hero_left p {
+        font-size: 17px;
+        line-height: 31px;
+    }
+
+    .service_heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .faq_heading h1 {
+        font-size: 21px;
+    }
+
+    .extension_heading h1 {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width:320px) {}
